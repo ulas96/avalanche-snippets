@@ -1,0 +1,8 @@
+{
+  "name": "team1-brain snippets",
+  "image": "mcr.microsoft.com/devcontainers/go:1.27",
+  "postCreateCommand": "cd snippets/ant && go mod download && cd ../c-to-x && go mod download && cd .. && cp -n .env.example .env",
+  "customizations": {
+    "vscode": { "extensions": ["golang.go"] }
+  }
+}
