@@ -1,4 +1,7 @@
 # avalanche-snippets
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ulas96/avalanche-snippets)
+
 Two small Go programs for Avalanche, in `snippets/`:
 
 - `c-to-x/`: moves AVAX from your C-Chain to your X-Chain balance (the X-Chain pays the token creation fee).
@@ -6,7 +9,7 @@ Two small Go programs for Avalanche, in `snippets/`:
 
 ## Run them in GitHub Codespaces (nothing to install)
 
-1. On this repo's GitHub page, click **Code → Codespaces → Create codespace on main**. Wait for the setup to finish; it installs Go and the dependencies.
+1. Click the **Open in GitHub Codespaces** button above (or **Code → Codespaces → Create codespace on main**). Wait for the setup to finish; it installs Go and the dependencies.
 2. Open `snippets/.env` (created for you from `.env.example`) and paste a **testnet** private key after `PRIVATE_KEY=`. Never use a key that holds real funds, and never commit `.env`.
 3. Get test AVAX for that key's C-Chain address from the Fuji faucet: https://core.app/tools/testnet-faucet/
 4. In the terminal:
